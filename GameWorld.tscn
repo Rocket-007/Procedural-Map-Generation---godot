@@ -16,10 +16,10 @@ cell_size = Vector2( 32, 32 )
 format = 1
 
 [node name="Panel" type="Panel" parent="."]
-margin_left = 34.0
-margin_top = 54.0
-margin_right = 537.0
-margin_bottom = 181.0
+margin_left = 74.0
+margin_top = 62.0
+margin_right = 295.0
+margin_bottom = 92.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
