@@ -48,8 +48,8 @@ func generate_perimeter() -> void:
 	for x in [0, size.x - 1]:
 		for y in range(0, size.y):
 			_tile_map.set_cell(x, y, _pick_random_texture(Cell.OUTER))
-	for x in [1, size.x - 1]:
-		for y in range(0, size.y - 1):
+	for x in range(1, size.x - 1):
+		for y in [0, size.y - 1]:
 			_tile_map.set_cell(x, y, _pick_random_texture(Cell.OUTER))
 		
 
